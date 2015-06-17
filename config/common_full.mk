@@ -1,10 +1,10 @@
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common.mk)
+# Inherit common DREAM stuff
+$(call inherit-product, vendor/dream/config/common.mk)
 
 # Include CM audio files
-include vendor/cm/config/cm_audio.mk
+include vendor/dream/config/dream_audio.mk
 
-# Optional CM packages
+# Optional DREAM packages
 PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \

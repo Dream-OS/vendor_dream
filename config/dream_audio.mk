@@ -2,10 +2,10 @@
 # CyanogenMod Audio Files
 #
 
-ALARM_PATH := vendor/cm/prebuilt/common/media/audio/alarms
-NOTIFICATION_PATH := vendor/cm/prebuilt/common/media/audio/notifications
-RINGTONE_PATH := vendor/cm/prebuilt/common/media/audio/ringtones
-UI_PATH := vendor/cm/prebuilt/common/media/audio/ui
+ALARM_PATH := vendor/dream/prebuilt/common/media/audio/alarms
+NOTIFICATION_PATH := vendor/dream/prebuilt/common/media/audio/notifications
+RINGTONE_PATH := vendor/dream/prebuilt/common/media/audio/ringtones
+UI_PATH := vendor/dream/prebuilt/common/media/audio/ui
 
 # Alarms
 PRODUCT_COPY_FILES += \
@@ -31,5 +31,6 @@ PRODUCT_COPY_FILES += \
 	$(RINGTONE_PATH)/Lyon.ogg:system/media/audio/ringtones/Lyon.ogg \
 	$(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
 	$(RINGTONE_PATH)/Sheep.mp3:system/media/audio/ringtones/Sheep.mp3
+
 
 
